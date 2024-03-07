@@ -12,6 +12,18 @@ for Example--- (like an if statement or a loop).
 
 • CONST- We Cannot be reassigned a new value after it's declared. const value can't change.
 
+```
+let a = 1;
+a = 2;
+console.log(a); 
+we will get aoutput 2.
+
+const a = 1;
+a = 2;
+console.log(a); 
+we will get typeError.
+```
+
 
 **HOISTING->>>>>>** <br>
 •VAR:- Declarations are hoisted to the top of their scope (function or global),but its value will be undefined.
