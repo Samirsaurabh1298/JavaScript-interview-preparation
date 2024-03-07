@@ -14,6 +14,6 @@ for Example--- (like an if statement or a loop).
 
 
 **HOISTING->>>>>>**
-• VAR:- Declarations are hoisted to the top of their scope (function or global),but its value will be undefined.
+<mark style="background-color: yellow;">•VAR:- Declarations are hoisted to the top of their scope (function or global),but its value will be undefined.</mark>
 
 • LET and CONST: Declarations are also hoisted, but not initialized. Trying to use a let or const  variable before it's declared will result in a Reference Error.
