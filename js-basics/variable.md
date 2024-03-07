@@ -13,7 +13,7 @@ for Example--- (like an if statement or a loop).
 • CONST- We Cannot be reassigned a new value after it's declared. const value can't change.
 
 
----------------------------------------------------HOISTING-------------------------------------------------------------------------------------
+HOISTING-->>>>
 • VAR:- Declarations are hoisted to the top of their scope (function or global),but its value will be undefined.
 
 • LET and CONST: Declarations are also hoisted, but not initialized. Trying to use a let or const  variable before it's declared will result in a Reference Error.
