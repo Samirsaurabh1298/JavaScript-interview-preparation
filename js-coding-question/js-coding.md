@@ -74,4 +74,15 @@ const peopleArray = [
     return item.age > 30
    })
    console.log(filterAge)
+
+
+   ***How to to find repeated city in given array of object?***
+
+   function filtercity(peopleArray, cityName){
+      let filteredCity = peopleArray.filter(function(item){
+        return item.city === cityName;
+      })
+      return filteredCity
+   }
+   console.log(filtercity(peopleArray, "New York"))
 ```
