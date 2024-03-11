@@ -68,5 +68,10 @@ const peopleArray = [
     { name: "Jo", age: 28, city: "New York" },
 ];
 
-
+***How to to find age should be less than 30 in given array of object?***
+   
+   const filterAge = peopleArray.filter(function(item){
+    return item.age > 30
+   })
+   console.log(filterAge)
 ```
