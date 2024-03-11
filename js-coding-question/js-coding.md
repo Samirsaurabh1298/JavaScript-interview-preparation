@@ -85,4 +85,15 @@ const peopleArray = [
       return filteredCity
    }
    console.log(filtercity(peopleArray, "New York"))
+
+
+   *** Using find method ***
+
+   function findcity(peopleArray, cityName){
+      let filteredCity = peopleArray.find(function(item){
+        return item.city === cityName;
+      })
+      return filteredCity
+   }
+   console.log(findcity(peopleArray, "bangalore"))
 ```
