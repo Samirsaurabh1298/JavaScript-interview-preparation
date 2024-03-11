@@ -8,7 +8,7 @@
 
 ***2)Write a JavaScript program to find the maximum number in an array.***
 ```
-<b>let myArray = [1,2,40,34,47,87,56,90,23]</b>
+  let myArray = [1,2,40,34,47,87,56,90,23]
 
 function findMaxNumber(myArray){
   return Math.max(...myArray)
