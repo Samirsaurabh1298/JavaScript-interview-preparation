@@ -97,3 +97,44 @@ const peopleArray = [
    }
    console.log(findcity(peopleArray, "bangalore"))
 ```
+
+***6)How to find missing number in  given integer array of 1 to 10***
+
+``` js
+const arrNumber = [1, 2, 3, 4, 5, 6, 9, 10]
+
+const findMissingNum = [];
+const missingValue = (arr) => {
+    const minValue = Math.min(...arr);
+    const maxValue = Math.max(...arr)
+    for (let i = minValue; i < maxValue; i++) {
+        if (arr.indexOf(i) < 0) {
+            findMissingNum.push(i)
+        }
+    }
+    return (findMissingNum)
+}
+
+console.log(missingValue(arrNumber))
+``` 
+
+***7)How to find Even number in a array***
+
+``` js
+const myArrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  const evenNumber = myArrays.filter(function(item){
+      return item % 2 === 0;
+  })
+  console.log(evenNumber)
+```
+
+***8)How to find Odd number in a array***
+
+``` js
+const myArrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  const oddNumber = myArrays.filter(function(item){
+      return item % 2 == !0;
+  })
+  console.log(oddNumber)
+
+```
