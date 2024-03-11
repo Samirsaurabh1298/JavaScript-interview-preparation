@@ -1,5 +1,5 @@
 ***1)Write a JavaScript function to calculate the sum of two numbers.*** 
-```
+``` js
   function calculateTwoNum(a,b) {
     return a + b;
   }
@@ -7,7 +7,7 @@
 ```
 
 ***2)Write a JavaScript program to find the maximum number in an array.***
-```
+``` js
   let myArray = [1,2,40,34,47,87,56,90,23]
 
 function findMaxNumber(myArray){
@@ -17,7 +17,7 @@ console.log(findMaxNumber(myArray))
 ```
 
 ***3)How to find duplicate elements in an array.***
-```
+``` js
 const myArray = [1,2,1,1,3,2,4]
 
 function duplicateArrays(item) {
@@ -32,7 +32,7 @@ console.log(duplicateElements)
 
 
 ***4)How to find min value of an array.***
-```
+``` js
 let myArryNumber = [1, 9, 88, 68, 755]
   const minFunction = (arr) => {
       return arr.reduce(function(prev, curr){
@@ -44,7 +44,7 @@ console.log(minFunction(myArryNumber))
 
 ***5)How to find Second largest value, and remove first largest value in an array.***
 
-```
+``` js
 const numArray = [2,6,8,15,9]
 
 function maxValue(numArray){
@@ -57,3 +57,16 @@ function maxValue(numArray){
 console.log(maxValue(numArray))
 ```
 
+***6)How to to use find and filter method in given array of object.***
+``` js
+const peopleArray = [
+    { name: "John", age: 25, city: "New York" },
+    { name: "Alice", age: 30, city: "Los Angeles" },
+    { name: "Bob", age: 22, city: "Chicago" },
+    { name: "Eva", age: 28, city: "San Francisco" },
+    { name: "Mike", age: 35, city: "Seattle" }
+    { name: "Jo", age: 28, city: "New York" },
+];
+
+
+```
