@@ -29,8 +29,7 @@ const duplicateElements = duplicateArrays(myArray)
 
 console.log(duplicateElements)
 ```
-<<<<<<< HEAD
-=======
+
 
 ***4)How to find min value of an array.***
 ```
@@ -57,4 +56,4 @@ function maxValue(numArray){
 }
 console.log(maxValue(numArray))
 ```
->>>>>>> 5b98f67 (test)
+
