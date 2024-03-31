@@ -157,10 +157,10 @@ console.log(sumOfNumber(myArray)).
 ***we can do by multiple way***
 
 ```js
-let sum = 0
 
-const sumOfArr(item) {
-    for(let i = 0; i < item.lenght; i++){
+function sumOfArr(item) {
+  let sum = 0
+    for(let i = 0; i < item.length; i++){
        sum += item[i]
     }
     return sum
