@@ -1,4 +1,4 @@
-***1)When will we click on button background color should be change. How many ways to do it ***
+***1)When will we click on button background color should be change. How many ways to do it.***
 
 ```js
 
