@@ -128,6 +128,7 @@ const myArrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   console.log(evenNumber)
 ```
 
+
 ***8)How to find Odd number in a array***
 
 ``` js
@@ -138,3 +139,32 @@ const myArrays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   console.log(oddNumber)
 
 ```
+
+
+***8)How to find sum of all elements in a given array in javascript.***
+
+``` js
+const myArray = [1, 2, 3, 5, 8, 9]
+
+const sumOfNumber = (item) => {
+   return item.reduce((prev, curr) => {
+    return prev + curr
+   })
+}
+console.log(sumOfNumber(myArray)).
+```
+
+***we can do by multiple way***
+
+```js
+let sum = 0
+
+const sumOfArr(item) {
+    for(let i = 0; i < item.lenght; i++){
+       sum += item[i]
+    }
+    return sum
+}
+console.log(sumOfArr(myArray))
+```
+
