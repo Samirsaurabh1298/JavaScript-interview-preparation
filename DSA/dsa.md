@@ -1,4 +1,4 @@
-***)𝗔𝗿𝗿𝗮𝘆𝘀 𝗮𝗻𝗱 𝗦𝘁𝗿𝗶𝗻𝗴𝘀:***
+***Arrays and String:***
 
 1. Find the missing number in an array of integers.
 2. Implement an algorithm to rotate an array.
