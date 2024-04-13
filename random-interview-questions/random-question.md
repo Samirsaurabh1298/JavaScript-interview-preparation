@@ -1,28 +1,29 @@
-**What is the difference between *==* and *===* in js** <br>
-⨀ *==* and *===* both are comparison operation.<br>
-⨀ *==* only compare value.<br>
-⨀ *===* copares value and types. <br>
+***1)What is the difference between == and === in js:***
+``` js
+ == and === both are comparison operation.
+ == only compare value.
+ === copares value and types. 
 
-```
 if('1'== 1){
      //only value
 };
 
-<br>
 
 if('1' === 1){
     //value and types
 };
 
 ```
-<br>
 
-What is difference between <b>NULL</b> and <b>UNDEFINED</b>   <br> 
-⨀ They both represent empty value, but diffrence is that when u define a variable and not assign a value to it. it automaticly take a placeholder called <b>UndefIned</b>. <br>
+***2)What is difference between NULL and UNDEFINED.***
+```js
+⨀ They both represent empty value, but diffrence is that when u define a variable and not assign a value to it. it automaticly take a placeholder called <b>UndefIned</b>
 
 ⨀ If we try to access typeOf <b>Null</b>  we will get object.
 
-***2)What is CLOSURE:***
+```
+
+***3)What is CLOSURE:***
 ```js
 function bundled along with it's lexical scope is called closure.
 Example:-
@@ -37,7 +38,7 @@ function outerFunction(outerVariable){
 const result = outerFunction("Hello")
 result("Cloure")
 ```
-***2)What is PROMISE:***
+***4)What is PROMISE:***
 ```js
 *A promise is an object representing the eventual completion or failure of an asynchronous operation. is called promise.
 
