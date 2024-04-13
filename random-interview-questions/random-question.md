@@ -21,3 +21,20 @@ What is difference between <b>NULL</b> and <b>UNDEFINED</b>   <br>
 ⨀ They both represent empty value, but diffrence is that when u define a variable and not assign a value to it. it automaticly take a placeholder called <b>UndefIned</b>. <br>
 
 ⨀ If we try to access typeOf <b>Null</b>  we will get object.
+
+***2)What is CLOSURE:***
+```js
+function bundled along with it's lexical scope is called closure.
+Example:-
+function outerFunction(outerVariable){
+    function innerFunction(innerVariable){
+        console.log('OuterVariable:', outerVariable)
+        console.log('InnerVariable:', innerVariable)
+    }
+    return innerFunction;
+}
+
+const result = outerFunction("Hello")
+result("Cloure")
+
+```
