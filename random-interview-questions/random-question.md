@@ -36,5 +36,12 @@ function outerFunction(outerVariable){
 
 const result = outerFunction("Hello")
 result("Cloure")
+```
+***2)What is PROMISE:***
+```js
+*A promise is an object representing the eventual completion or failure of an asynchronous operation. is called promise.
 
+*It allows you to handle asynchronous operations more easily and avoid callback hell by chaining .then() and .catch() methods.
+
+*A promise can be in three states: pending, fulfilled, or rejected.
 ```
