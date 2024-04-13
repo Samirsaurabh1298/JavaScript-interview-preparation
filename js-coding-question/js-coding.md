@@ -29,7 +29,7 @@ const duplicateElements = duplicateArrays(myArray)
 
 console.log(duplicateElements)
 
- We can do it by multiple way---
+***This is another approach*** 
 
 function findDupEle(item){
    return item.filter(function(element,index){
