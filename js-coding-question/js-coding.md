@@ -28,6 +28,16 @@ function duplicateArrays(item) {
 const duplicateElements = duplicateArrays(myArray)
 
 console.log(duplicateElements)
+
+ We can do it by multiple way---
+
+function findDupEle(item){
+   return item.filter(function(element,index){
+   return item.indexOf(element, index + 1) !== -1;
+})
+}
+const result = findDupEle(myArray)
+console.log(result)
 ```
 
 
