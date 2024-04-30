@@ -189,3 +189,46 @@ function findUniqueEle(item){
 const result = findUniqueEle(myArray)
 console.log(myArray)
 ```
+***10)Write a function that takes a string as input and returns the count of each character in the string as an object.***
+
+```js
+let charact = "hello";
+
+function countOfChar(str) {
+    let charCount = {};
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];
+
+        if (charCount[char] === undefined) {
+            charCount[char] = 1;
+        } else {
+            charCount[char]++;
+        }
+    }
+    return charCount;  
+}
+
+console.log(countOfChar(charact));
+
+```
+
+***11)Write a function that takes an array of integers as input and returns the sum of all the positive integers in the array.***
+
+```js
+
+let myArray = [1, -2, 3, -4, 5];
+
+function sumOfPositive(item) {
+    return item.reduce(function(sum, num) {
+        if (num > 0) {
+            return sum + num;
+        } else {
+            return sum;
+        }
+    }, 0);
+}
+
+const result = sumOfPositive(myArray);
+console.log(result); // Output: 9
+
+```
