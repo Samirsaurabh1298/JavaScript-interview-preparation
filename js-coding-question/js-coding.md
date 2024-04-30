@@ -230,5 +230,40 @@ function sumOfPositive(item) {
 
 const result = sumOfPositive(myArray);
 console.log(result); // Output: 9
+```
+***12)string is reversed.***
+
+```js
+let name = "Asynchronous"
+function reversedStr(name){
+  let reversed = "";
+for(let i = name.length -1; i >= name; i--){
+reversed+= name[i]
+}
+return reversed
+}
+
+console.log(reversedStr(reversed))
+```
+
+***13)Write a function that takes this array of student objects as input and returns an array of names of students who are in grade "A" .***
+
+```js
+const students = [
+    { name: "Alice", age: 20, grade: "A" },
+    { name: "Bob", age: 21, grade: "B" },
+    { name: "Charlie", age: 22, grade: "A" },
+    { name: "David", age: 23, grade: "C" }
+];
+
+const getGradeAStudents = students
+    .filter(function(student) {
+        return student.grade === "A";
+    })
+    .map(function(student) {
+        return student.name;
+    });
+
+console.log(getGradeAStudents); // Output: ["Alice", "Charlie"]
 
 ```
