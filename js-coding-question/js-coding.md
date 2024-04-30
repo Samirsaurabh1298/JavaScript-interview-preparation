@@ -178,3 +178,14 @@ function sumOfArr(item) {
 console.log(sumOfArr(myArray))
 ```
 
+***9)Write a function that returns an array of unique elements from the input array while preserving their original order.***
+
+```js
+const myArray = [1, 2, 3, 4, 1, 2, 5];
+function findUniqueEle(item){
+   const uniqueSet = new Set(item)
+   return Array.from(uniqueSet)
+}
+const result = findUniqueEle(myArray)
+console.log(myArray)
+```
