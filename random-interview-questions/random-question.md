@@ -51,3 +51,16 @@ result("Cloure")
 ⨀ Async/await is a modern JavaScript feature that allows you to write asynchronous code in a synchronous-like manner using async and await keywords.
 ⨀ Promises are an older way of handling asynchronous code, while async/await is a more modern and cleaner approach.
 ```
+
+***6)How does the this keyword work in different scenarios?***
+
+```
+*The this keyword in JavaScript behaves differently based on the context in which it is used.
+*Arrow functions do not have their own this. Instead, they inherit this from the parent scope at the time they are defined.
+const obj = {
+  arrowFunc: () => {
+    console.log(this);
+  }
+};
+obj.arrowFunc();
+```
