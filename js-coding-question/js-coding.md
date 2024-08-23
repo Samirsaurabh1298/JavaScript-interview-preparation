@@ -267,3 +267,16 @@ const getGradeAStudents = students
 console.log(getGradeAStudents); // Output: ["Alice", "Charlie"]
 
 ```
+***14)How to log all pairs of Arrays?***
+```js
+const boxes = [1, 2, 3, 4, 5, 6]
+
+function logAllPairsOfArrays(item){
+  for(let i = 0; i < item.length; i++){
+    for(let j = 0; j < item.length; j++){
+      console.log(item[i], item[j])
+    }
+  }
+}
+logAllPairsOfArrays((boxes))
+```
