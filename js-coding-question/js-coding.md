@@ -279,4 +279,14 @@ function logAllPairsOfArrays(item){
   }
 }
 logAllPairsOfArrays((boxes))
+
+function logAllPairsOfArrays(item){
+  item.forEach(function(firstBox){
+    item.forEach(function(secondBox){
+      console.log(firstBox, secondBox)
+    })
+  })
+}
+
+logAllPairsOfArrays(boxes)
 ```
