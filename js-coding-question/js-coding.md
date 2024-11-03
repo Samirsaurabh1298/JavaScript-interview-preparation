@@ -305,4 +305,20 @@ function reverseString(str){
 let reversedString = reverseString(originalString)
 console.log(reversedString)
 
+we can do it via multiple ways:-------
+
+1) Using BUILT-IN Methods (split, reverse, join)
+  function reverse2(str){
+  return str.split('').reverse().join('')
+}
+
+let reversedStr = reverse2(originalString)
+console.log(reversedStr)
+
+2)Using SPREAD OPERATOR
+  function spread3(str){
+    return [...str].reverse().join("")
+  }
+  let reversedStr = reverse2(originalString)
+console.log(reversedStr)
 ```
