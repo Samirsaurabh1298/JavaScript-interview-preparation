@@ -291,7 +291,7 @@ function logAllPairsOfArrays(item){
 logAllPairsOfArrays(boxes)
 ```
 
-***14)Write a function that reverse a string.  LIKE- "Hi my name is Samir", should be like this => "rimaS si eman ym iH ***
+***14)Write a function that reverse a string LIKE- "Hi my name is Samir", should be like this => "rimaS si eman ym iH. ***
 ```js
 let originalString = "Hi my name is Samir"
 
