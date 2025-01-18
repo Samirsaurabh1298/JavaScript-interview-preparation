@@ -10,7 +10,7 @@ for Example--- (like an if statement or a loop).
 **REASSIGNMENT->>>>>>** <br>
 • VAR and LET can be reassigned a new value after they are declared.
 
-• CONST- We Cannot be reassigned a new value after it's declared. const value can't change.
+<!--  *CONST- We Cannot be reassigned a new value after it's declared. const value can't change. -->
 
 ```
 let a = 1;
